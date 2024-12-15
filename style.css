@@ -1,0 +1,121 @@
+body{
+  background-image: url('https://www.freeiconspng.com/thumbs/rain-png/rain-png-transparent-9.png'), linear-gradient(#3F5F66, #7A2924);
+  background-repeat: repeat,no-repeat;
+  background-attachment: fixed;
+}
+
+
+h2 {
+  color:black;
+  font-family: "Reem Kufi Fun", sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  color: #EFD09E;
+  font-size: 40px;
+  font-family: "Reem Kufi Fun", sans-serif;
+  -webkit-text-stroke: 1px black;
+  text-decoration: underline;
+}
+
+p {
+  color: #EFD09E;
+  font-size: 32px;
+  font-family: "Avoqado", sans-serif;
+  text-decoration: underline;
+}
+
+
+h4 {
+  color: #EFD09E;
+  font-size: 40px;
+  font-family: "Reem Kufi Fun", sans-serif;
+  -webkit-text-stroke: 1px black;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ALL CLASSES*/
+
+.horizontal-flex {
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-evenly;
+  align-items: center; 
+}
+
+.horizontal-flex-header {
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  align-items: center; 
+}
+
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.button-press {
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  background-color: #86BBBD;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.button-press:hover {
+  background-color: #3F5F66;
+  cursor: pointer;
+}
+
+.button-press:active {
+  transform: scale(0.95);
+}
+
+.gif-border {
+  border: 10px solid transparent;
+  border-image: url('https://www.gifstop.com/images/borders/blueborder.gif') 30 stretch;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.banner {
+  overflow: hidden;
+  padding: 20 px;
+  animation: 40s slide infinite linear;
+}
+
+.banner:hover {
+  animation-play-state: paused;
+}
+
+.artwork {
+  white-space: nowrap;
+  display: flex;
+}
+
+.artwork img {
+  height: 243px;
+  padding:10px;
+  padding-left: 250px;
+  object-fit: cover;
+}
